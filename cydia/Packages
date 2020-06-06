@@ -15,16 +15,16 @@ Author: Hao Nguyen
 Name: Replace Dictation Key With Emoji
 
 Package: com.haoict.facebooknoads
-Version: 1.0.0
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 664
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 2.0.0), firmware (>= 10)
-Filename: ./debs/com.haoict.facebooknoads_1.0.0_iphoneos-arm.deb
-Size: 249692
-MD5sum: 19ae5165149195d7a10e2958ff92ab50
-SHA1: 023b67c2df320959d1fc0950fb36533d2ed328e2
-SHA256: 7d249495aafb40126f2b2da951fdc7e062c1ce926166bbc3985b7fce3dbd31d8
+Installed-Size: 536
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.1.0), firmware (>= 10)
+Filename: ./debs/com.haoict.facebooknoads_1.2.0_iphoneos-arm.deb
+Size: 246086
+MD5sum: 53613c50ed78344ba38b1775717f7ae3
+SHA1: 762ef43932894daf6dcfa08fcc7252067995a094
+SHA256: 2c52a11f135f3b232cb1b54ed4a706b53015e6efad33c7e99cf5996041cdd091
 Section: Tweaks
 Description: Free & Open Source Tweak for Facebook
  Free & Open Source Tweak for Facebook
@@ -37,6 +37,8 @@ Description: Free & Open Source Tweak for Facebook
  - Hide Stories on News Feed
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
  - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 260.0)
+ .
+ I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -75,24 +77,26 @@ Author: Hao Nguyen
 Name: Gmail No Ads
 
 Package: com.haoict.instanoads
-Version: 1.1.0
+Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 412
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev, firmware (>= 10)
-Filename: ./debs/com.haoict.instanoads_1.1.0_iphoneos-arm.deb
-Size: 55090
-MD5sum: af8108e897d9cd53be93e981a4011cfa
-SHA1: dec140efabf43e4ab98acc328dbd8bd14b23ad69
-SHA256: 0f4eff004055694c8c2924ac6bfb81b1a7c2172fae8c9e80e55b264bd0f4acec
+Installed-Size: 648
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
+Filename: ./debs/com.haoict.instanoads_2.2.0_iphoneos-arm.deb
+Size: 325968
+MD5sum: 127e980780713d56964d339f9311fcf8
+SHA1: d146428a91d852bffdb71e8de4be14239aa23ef6
+SHA256: cdf3f3c99904a69073a42a35fae904d2f8fbf7d963f43f99f9b691bb710ff378
 Section: Tweaks
 Description: Free & Open Source Tweak for Instagram
  Free & Open Source Tweak for Instagram
  Features:
  - Remove Ads (New Feeds and Stories)
- - Lightweight
+ - Can save media (Photos, Videos, IGTV, Stories, press and hold to show download option)
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest Instagram version (If it doesn't work, you should update the app to latest version >= 140.0)
+ - Support latest Instagram version (If it doesn't work, you should update the app to latest version >= 145.0)
+ .
+ I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -101,17 +105,50 @@ Description: Free & Open Source Tweak for Instagram
 Author: Hao Nguyen
 Name: Instagram No Ads
 
+Package: com.haoict.killallapps
+Version: 3.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.3.0), firmware (>= 12)
+Filename: ./debs/com.haoict.killallapps_3.0.0_iphoneos-arm.deb
+Size: 37658
+MD5sum: 849d190c67f71c8f02d575ac7e97c7e2
+SHA1: e018847da0afbb9e3e5739075b086d570941abae
+SHA256: 58852ee6b480363b8556b5426ef94457f5224c00900ce4a9aabb4cfd7c460201
+Section: Tweaks
+Description: Swipe down in app switcher to kill all background apps
+ Swipe down in app switcher to kill all background apps
+ .
+ Features:
+ - Custom UI Effect/Haptic Feedback when killed all apps
+ - Option to add Clear Button and its style
+ - Option to kill all apps but keep current app alive
+ - Option to kill all apps and restart current app
+ - Option to not kill Now Playing or Navigation Apps or Swiped Down App and Except Apps
+ - Custom swipe down offset
+ - Support iOS 12 - 13
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Kill All Apps
+
 Package: com.haoict.libhdev
-Version: 2.0.0
+Version: 4.3.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen <hao.ict56@gmail.com>
-Installed-Size: 336
+Installed-Size: 320
 Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
-Filename: ./debs/com.haoict.libhdev_2.0.0_iphoneos-arm.deb
-Size: 36802
-MD5sum: a8236cc0b12f77c4b08bef3777d672c0
-SHA1: e258c84d0e6c8845a899ae1c4b02880af2733615
-SHA256: 175fa438a483958077e54fa95c61a75b23d5ba1a42989aac74988e65a30b7875
+Filename: ./debs/com.haoict.libhdev_4.3.0_iphoneos-arm.deb
+Size: 39848
+MD5sum: c2507eb12cc9a3729d818b2d1cf04528
+SHA1: 7c6a7106a3b62e398e779c9459a8408acc8090d0
+SHA256: dfe6108f7a12ed75b6d26bc0d427ebb8d0a95045032a58968d49ed559689435a
 Section: System
 Description: This is a developer library for better preferences and useful utilities.
 Tag: role::developer
@@ -135,17 +172,17 @@ Author: Hao Nguyen
 Name: Lock Screen Without Button
 
 Package: com.haoict.messengernoads
-Version: 3.5.0
+Version: 3.6.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 512
-Depends: mobilesubstrate, com.haoict.libhdev, firmware (>= 10)
+Installed-Size: 968
+Depends: mobilesubstrate, com.haoict.libhdev (>= 4.1.0), firmware (>= 10)
 Conflicts: com.haoict.messengernoads
-Filename: ./debs/com.haoict.messengernoads_3.5.0_iphoneos-arm.deb
-Size: 276110
-MD5sum: 024fac10148d2fb5d432a2490abb55f3
-SHA1: 2fe8886ae1810bfd999b75acd1a6aeb09189fb62
-SHA256: 6bde7958c7b6baddd20997f22191f6817dbeca260f242afb54c193c84e57f81b
+Filename: ./debs/com.haoict.messengernoads_3.6.0_iphoneos-arm.deb
+Size: 537896
+MD5sum: 6d4d626ea90bf66e14d921aae2379709
+SHA1: fa1ed3da1ba0ef6c6f63bb52563b5bdd8d4f655e
+SHA256: dea2292b57fa26d5cf14bfef1f13a069dc14b732db6599d9439fc0e2ae630e8b
 Section: Tweaks
 Description: The best tweak for Messenger app.
  The best tweak for Messenger app.
@@ -167,6 +204,35 @@ Description: The best tweak for Messenger app.
  Thanks a ton
 Author: Hao Nguyen
 Name: Messenger No Ads
+
+Package: com.haoict.outlookplus
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
+Filename: ./debs/com.haoict.outlookplus_1.0.0_iphoneos-arm.deb
+Size: 11862
+MD5sum: 0ed82b1ba64cf92389f57e8e1dbed4d4
+SHA1: b59f0b3c0bdd5e75b919f44eaca6cc4d41a1c800
+SHA256: 4f6e5aefae0bcb38c4984c3faf5ce8c05a30860680833d45da6c28afee8def38
+Section: Tweaks
+Description: Free & Open Source Tweak for Outlook App
+ Free & Open Source Tweak for Outlook App
+ Change log: https://github.com/haoict/outlook-plus/releases
+ .
+ Features:
+ - Bypass Jailbreak Detection
+ - Support iOS 10-13 & latest Outlook app version
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Outlook Plus
 
 Package: com.haoict.redditnoads
 Version: 1.0.0
@@ -197,17 +263,73 @@ Description: Free & Open Source Tweak for Reddit
 Author: Hao Nguyen
 Name: Reddit No Ads
 
-Package: com.haoict.tiktokgod
-Version: 1.6.0
+Package: com.haoict.skypebplus
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 464
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 2.0.0), firmware (>= 10)
-Filename: ./debs/com.haoict.tiktokgod_1.6.0_iphoneos-arm.deb
-Size: 41474
-MD5sum: 1d14a5292ceb3f57cc0d4514534efaa1
-SHA1: 889610651e929c45789233e486e69eb849a7f779
-SHA256: 3451a3c8d01ed3ddba237fb61f0c50e9e684124ae7a699fac8c17eac1a19387d
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
+Filename: ./debs/com.haoict.skypebplus_1.0.0_iphoneos-arm.deb
+Size: 11974
+MD5sum: 00c46c0033866b99129031201411b35f
+SHA1: fac3e913b9df3e3bffd0e24da58b6de362056d00
+SHA256: 23efae0035baa770dacb84868005b63286d59451b16809b693b2a626f5ba1891
+Section: Tweaks
+Description: Free & Open Source Tweak for Skype For Business App
+ Free & Open Source Tweak for Skype For Business App
+ Change log: https://github.com/haoict/skypeb-plus/releases
+ .
+ Features:
+ - Bypass Jailbreak Detection
+ - Support iOS 10-13 & latest Skype For Business app version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Skype For Business Plus
+
+Package: com.haoict.teamsplus
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
+Filename: ./debs/com.haoict.teamsplus_1.0.0_iphoneos-arm.deb
+Size: 11846
+MD5sum: aeaf6b1e2a2761abe1b8ec5a9ec673fa
+SHA1: d6c725d02a80a8c916333d84152afceb002acac2
+SHA256: 581d5603d2e7b6b6ac76243b732c3b200cb28de2c58616a62271bb1d1a800635
+Section: Tweaks
+Description: Free & Open Source Tweak for Teams App
+ Free & Open Source Tweak for Teams App
+ Change log: https://github.com/haoict/teams-plus/releases
+ .
+ Features:
+ - Bypass Jailbreak Detection
+ - Support iOS 10-13 & latest Teams app version
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Teams Plus
+
+Package: com.haoict.tiktokgod
+Version: 1.9.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
+Filename: ./debs/com.haoict.tiktokgod_1.9.1_iphoneos-arm.deb
+Size: 51022
+MD5sum: 9dab51a59c6bc3ea42cd51508c421f6f
+SHA1: abbf9b44c6a91e5de946e262026a34eb4d95cb66
+SHA256: b567bfaa8a39352f67b125d32c00b783d3ed52d43ef9efe4bba076532885754f
 Section: Tweaks
 Description: The best tweak for TikTok app.
  The best tweak for TikTok app.
@@ -216,52 +338,52 @@ Description: The best tweak for TikTok app.
  Features:
  - Remove Ads
  - Enable download for all videos
- - Download without watermark (long press on video to download)
+ - Download without watermark
  - Auto scroll to next video
  - Change Region (may not work for iPad and some devices)
  - Show progress bar (for fast forward or rewind video)
- - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest TikTok version (If it doesn't work, you should update the app to latest version >= 15.9.0)
+ - Can hide UI (view video in full screen)
+ - Support iOS 10-13 & latest TikTok version
+ .
+ I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict or https://www.patreon.com/haoict
  .
  Thanks a ton
 Author: Hao Nguyen
 Name: TikTok God
 
-Package: com.haoict.tiktokgod
-Version: 1.6.1
+Package: com.haoict.twitchnoads
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 484
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 2.0.0), firmware (>= 10)
-Filename: ./debs/com.haoict.tiktokgod_1.6.1_iphoneos-arm.deb
-Size: 43938
-MD5sum: 12dbb97f649d542427e93e6e57efebd6
-SHA1: 0f39ad5e0f2a164f338df5c97a99013c9c0ee568
-SHA256: 8987480a92e3051378f2abd00a4ea61d260b0cd569c9ab2f88ef2794a6185ac6
+Installed-Size: 624
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.1.0), firmware (>= 10)
+Filename: ./debs/com.haoict.twitchnoads_1.0.0_iphoneos-arm.deb
+Size: 317686
+MD5sum: 541a58aaf6d1ee467c91bf7fa53a52d3
+SHA1: 42368a6a8f4ce5ae37b43c53fd6f25bff2695a75
+SHA256: 12cd9a304710241b7e9b90bec1da32ad128e699a732ba5b0ee3e4630f2811ea0
 Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
+Description: Free & Open Source Tweak for Twitch
+ Free & Open Source Tweak for Twitch
+ Change log: https://github.com/haoict/twitch-no-ads/releases
  .
  Features:
  - Remove Ads
- - Enable download for all videos
- - Download without watermark (long press on video to download)
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
+ - Can save clip (live/stream video is currently not supported, press and hold on clip video to show download option)
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest TikTok version (If it doesn't work, you should update the app to latest version >= 15.9.0)
+ - Support latest Twitch version (If it doesn't work, you should update the app to latest version >= 9.2)
+ .
+ I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
  .
  Thanks a ton
 Author: Hao Nguyen
-Name: TikTok God
+Name: Twitch No Ads
 
 Package: com.haoict.twitternoads
 Version: 1.2.1
@@ -295,6 +417,36 @@ Description: Free & Open Source Tweak for Twitter
  Thanks a ton
 Author: Hao Nguyen
 Name: Twitter No Ads
+
+Package: com.haoict.weatherplus
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 528
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.2.0), firmware (>= 10)
+Filename: ./debs/com.haoict.weatherplus_1.1.0_iphoneos-arm.deb
+Size: 205022
+MD5sum: d78fe26fdf37339d445b27ae4b3139ce
+SHA1: ea9d1457cbbf78ac0671e7ad693bae67b8acb954
+SHA256: d95923fec38a7f6239bd083d293e3c423681874cf4e457e496ae9fea78cbf26f
+Section: Tweaks
+Description: Free & Open Source Tweak for Weather App
+ Free & Open Source Tweak for Weather App
+ Change log: https://github.com/haoict/weather-plus/releases
+ .
+ Features:
+ - Add the date next to each day
+ - Custom format (dd/MM, MM/dd, etc,...)
+ - Support iOS 10-13 & latest Weather app version
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Weather Plus
 
 Package: com.haoict.zalonoads
 Version: 0.0.1
