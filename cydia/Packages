@@ -1,30 +1,92 @@
-Package: com.haoict.dictationkeyhook
-Version: 0.0.3
+Package: com.haoict.camerashuttersounddisabler
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 136
+Installed-Size: 0
 Depends: mobilesubstrate
-Filename: ./debs/com.haoict.dictationkeyhook_0.0.3_iphoneos-arm.deb
-Size: 4774
-MD5sum: 95b0767223a6b21f4cb4ad74adc97fb2
-SHA1: 13a1fcf6b5cdafe73c03ca566ae8f435e02a8286
-SHA256: 520bd8e674e55c537a340b6ef91466085529c723b14ffd83d6eec059addde0c4
+Filename: ./debs/com.haoict.camerashuttersounddisabler_0.0.1_iphoneos-arm.deb
+Size: 1074
+MD5sum: 2ed249fda78d46734632593df13e3c3e
+SHA1: ecef0feee8910cde7875eb6325bbc0d77aca3b90
+SHA256: 02f41313ba6fa54307c7c5f2fb4fd0d8c3070245629fad94965b55a69e3db430
 Section: Tweaks
-Description: Show Emoji key in keyboard for iphone 5 - 6 - 7 - 8
+Description: Camera Shutter Sound Disabler
+ Camera Shutter Sound Disabler
+ Support iOS 7 - 13
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
 Author: Hao Nguyen
-Name: Replace Dictation Key With Emoji
+Name: Camera Shutter Sound Disabler
+
+Package: com.haoict.dictationkeyhook
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 348
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
+Filename: ./debs/com.haoict.dictationkeyhook_1.0.0_iphoneos-arm.deb
+Size: 52872
+MD5sum: 5db6e59062c6fa450376cb3eeedd05cb
+SHA1: 3a76093444fd7b00f37ffc489a7501f21e788823
+SHA256: 3573a56030428ffa7b997cda252b98f9d5e1231f2364b8280f11eff59d0d81bd
+Section: Tweaks
+Description: Show Emoji key in keyboard for iphone 5, 6, 7, 8
+ Show Emoji key in keyboard for iphone 5, 6, 7, 8
+ Support iOS 12 - 13
+ Preview: https://haoict.github.io/cydia/images/emojikeyppbanner.jpg
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: EmojiKey++
+
+Package: com.haoict.enlightpro
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.4.0), firmware (>= 10)
+Filename: ./debs/com.haoict.enlightpro_1.0.0_iphoneos-arm.deb
+Size: 109492
+MD5sum: 721894544c8e09c8caccb57b03bd5b3d
+SHA1: 25667f95aaebfb2d427722c42217098fc0aaafaf
+SHA256: 3db8ae11b5994449a84a0d20f32d4091961e2091b1c1eefbf9137dbf5f27fa9e
+Section: Tweaks
+Description: Unlock Pro for Enlight Apps
+ Unlock Pro for Enlight Apps
+ IMPORTANT: I made this tweak for those who can't afford these apps (students, living in third world countries...) or just want to try before purchase.
+ I recommend purchase the apps to support developers if you actually use them. I myself purchased one. Thanks.
+ .
+ Features:
+ - Photofox Pro
+ - Videoleaf Pro
+ - Pixaloop Pro
+ - Quickshot Pro
+ - Support iOS 10 - 13
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Enlight Apps Pro Unlocked
 
 Package: com.haoict.facebooknoads
-Version: 1.2.0
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 536
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.1.0), firmware (>= 10)
-Filename: ./debs/com.haoict.facebooknoads_1.2.0_iphoneos-arm.deb
-Size: 246086
-MD5sum: 53613c50ed78344ba38b1775717f7ae3
-SHA1: 762ef43932894daf6dcfa08fcc7252067995a094
-SHA256: 2c52a11f135f3b232cb1b54ed4a706b53015e6efad33c7e99cf5996041cdd091
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
+Filename: ./debs/com.haoict.facebooknoads_1.4.0_iphoneos-arm.deb
+Size: 254596
+MD5sum: 9766d072a1af4be23fcc68929876aa43
+SHA1: 3a467a4beb5ceb9863b0f74774f2397cc1db53e2
+SHA256: 05b1261edf7019c92de8a2d05b4fb3d59ba22a47fb35592c4d84020cd96733fa
 Section: Tweaks
 Description: Free & Open Source Tweak for Facebook
  Free & Open Source Tweak for Facebook
@@ -33,12 +95,13 @@ Description: Free & Open Source Tweak for Facebook
  Features:
  - Remove Ads
  - Can Download Video (long press to download)
+ - Can Download Story
+ - Can Only Me Profile Picture
+ - Disable Story Seen (See friends's story without letting them know)
  - Hide Composer on News Feed
  - Hide Stories on News Feed
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
  - Support latest Facebook version (If it doesn't work, you should update the app to latest version >= 260.0)
- .
- I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -105,17 +168,46 @@ Description: Free & Open Source Tweak for Instagram
 Author: Hao Nguyen
 Name: Instagram No Ads
 
-Package: com.haoict.killallapps
-Version: 3.0.0
+Package: com.haoict.instanoads
+Version: 2.4.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 364
-Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.3.0), firmware (>= 12)
-Filename: ./debs/com.haoict.killallapps_3.0.0_iphoneos-arm.deb
-Size: 37658
-MD5sum: 849d190c67f71c8f02d575ac7e97c7e2
-SHA1: e018847da0afbb9e3e5739075b086d570941abae
-SHA256: 58852ee6b480363b8556b5426ef94457f5224c00900ce4a9aabb4cfd7c460201
+Installed-Size: 644
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
+Filename: ./debs/com.haoict.instanoads_2.4.0_iphoneos-arm.deb
+Size: 325654
+MD5sum: 767a19493609cffb313dc746d6dbe3e4
+SHA1: 5f167ac7ec42263f894801786ce1c860e0e1acd9
+SHA256: 4adb658f0aa244a5d349c439992439456cbd6d4767da8cc491008ee2b44b9056
+Section: Tweaks
+Description: Free & Open Source Tweak for Instagram
+ Free & Open Source Tweak for Instagram
+ Features:
+ - Remove Ads (New Feeds and Stories)
+ - Can save media (Photos, Videos, IGTV, Stories, press and hold to show download option)
+ - Can Save HD Profile Picture (Press and hold to show download option)
+ - Support iOS 10 - 13 & latest Instagram version (>= 145.0)
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Instagram No Ads
+
+Package: com.haoict.killallapps
+Version: 3.1.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.5.0), firmware (>= 12)
+Filename: ./debs/com.haoict.killallapps_3.1.0_iphoneos-arm.deb
+Size: 43006
+MD5sum: a5ab3f51787a4d20befd3f51f9563eea
+SHA1: 883f647be07e8da335ab1a5ca05499410c3f2e14
+SHA256: 90af0e6eee5a5cc4ec6666e8f2a4353c57dc0d5ba8bd98e50d91290340da1fde
 Section: Tweaks
 Description: Swipe down in app switcher to kill all background apps
  Swipe down in app switcher to kill all background apps
@@ -139,16 +231,16 @@ Author: Hao Nguyen
 Name: Kill All Apps
 
 Package: com.haoict.libhdev
-Version: 4.3.0
+Version: 4.5.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen <hao.ict56@gmail.com>
-Installed-Size: 320
+Installed-Size: 380
 Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
-Filename: ./debs/com.haoict.libhdev_4.3.0_iphoneos-arm.deb
-Size: 39848
-MD5sum: c2507eb12cc9a3729d818b2d1cf04528
-SHA1: 7c6a7106a3b62e398e779c9459a8408acc8090d0
-SHA256: dfe6108f7a12ed75b6d26bc0d427ebb8d0a95045032a58968d49ed559689435a
+Filename: ./debs/com.haoict.libhdev_4.5.0_iphoneos-arm.deb
+Size: 45218
+MD5sum: b9d53397b1fe535facb7c77c9e6d4300
+SHA1: 4ad72c4752e3cdad3f65061926f627b117db6166
+SHA256: c0975bdb9bec67b73a4b6d0da58d704041e9c0300d7d1bbb6afae6faabe40ba3
 Section: System
 Description: This is a developer library for better preferences and useful utilities.
 Tag: role::developer
@@ -172,17 +264,16 @@ Author: Hao Nguyen
 Name: Lock Screen Without Button
 
 Package: com.haoict.messengernoads
-Version: 3.6.0
+Version: 3.8.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 968
-Depends: mobilesubstrate, com.haoict.libhdev (>= 4.1.0), firmware (>= 10)
-Conflicts: com.haoict.messengernoads
-Filename: ./debs/com.haoict.messengernoads_3.6.0_iphoneos-arm.deb
-Size: 537896
-MD5sum: 6d4d626ea90bf66e14d921aae2379709
-SHA1: fa1ed3da1ba0ef6c6f63bb52563b5bdd8d4f655e
-SHA256: dea2292b57fa26d5cf14bfef1f13a069dc14b732db6599d9439fc0e2ae630e8b
+Installed-Size: 972
+Depends: mobilesubstrate, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_3.8.0_iphoneos-arm.deb
+Size: 536394
+MD5sum: ff14b4230514d97e692377b6198aefe9
+SHA1: f49e55d501ddc0f10bf3d8f4d40b45ef31a2e945
+SHA256: d30f5ed5a1f27e69368c78c0af095436f2b6227f403675dfd44aa4da8cb10e89
 Section: Tweaks
 Description: The best tweak for Messenger app.
  The best tweak for Messenger app.
@@ -194,6 +285,7 @@ Description: The best tweak for Messenger app.
  - Disable Story Seen Receipt
  - Can Save Friend's Story
  - Hide Search Bar, Stories row, People tab
+ - Hide Suggested Contact in Search
  - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
  - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
@@ -206,16 +298,16 @@ Author: Hao Nguyen
 Name: Messenger No Ads
 
 Package: com.haoict.outlookplus
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 300
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
-Filename: ./debs/com.haoict.outlookplus_1.0.0_iphoneos-arm.deb
-Size: 11862
-MD5sum: 0ed82b1ba64cf92389f57e8e1dbed4d4
-SHA1: b59f0b3c0bdd5e75b919f44eaca6cc4d41a1c800
-SHA256: 4f6e5aefae0bcb38c4984c3faf5ce8c05a30860680833d45da6c28afee8def38
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.4.0), firmware (>= 10)
+Filename: ./debs/com.haoict.outlookplus_1.0.1_iphoneos-arm.deb
+Size: 11846
+MD5sum: 486956e0f17bd650d106d2a3be265e21
+SHA1: e55d9e4f47bf8561ca8f18f6dd088fcb89e34e76
+SHA256: 9ee9a2f68922ea3cc7b029bd7a73dc5e44ac7e2b54ccdecb1409d5947605fcc8
 Section: Tweaks
 Description: Free & Open Source Tweak for Outlook App
  Free & Open Source Tweak for Outlook App
@@ -224,8 +316,6 @@ Description: Free & Open Source Tweak for Outlook App
  Features:
  - Bypass Jailbreak Detection
  - Support iOS 10-13 & latest Outlook app version
- .
- I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -264,16 +354,16 @@ Author: Hao Nguyen
 Name: Reddit No Ads
 
 Package: com.haoict.skypebplus
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 300
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
-Filename: ./debs/com.haoict.skypebplus_1.0.0_iphoneos-arm.deb
-Size: 11974
-MD5sum: 00c46c0033866b99129031201411b35f
-SHA1: fac3e913b9df3e3bffd0e24da58b6de362056d00
-SHA256: 23efae0035baa770dacb84868005b63286d59451b16809b693b2a626f5ba1891
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.4.0), firmware (>= 10)
+Filename: ./debs/com.haoict.skypebplus_1.0.1_iphoneos-arm.deb
+Size: 11996
+MD5sum: 754293a224b85077c8f687025ee3b0cd
+SHA1: c45eed548ba9c680c45a4f69e666fee5d0279e32
+SHA256: e85938e80d0dee161eee7727704c5f0b1dc1f99a7bf52b03f90d6d712c514147
 Section: Tweaks
 Description: Free & Open Source Tweak for Skype For Business App
  Free & Open Source Tweak for Skype For Business App
@@ -291,16 +381,16 @@ Author: Hao Nguyen
 Name: Skype For Business Plus
 
 Package: com.haoict.teamsplus
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 300
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
-Filename: ./debs/com.haoict.teamsplus_1.0.0_iphoneos-arm.deb
-Size: 11846
-MD5sum: aeaf6b1e2a2761abe1b8ec5a9ec673fa
-SHA1: d6c725d02a80a8c916333d84152afceb002acac2
-SHA256: 581d5603d2e7b6b6ac76243b732c3b200cb28de2c58616a62271bb1d1a800635
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.4.0), firmware (>= 10)
+Filename: ./debs/com.haoict.teamsplus_1.0.1_iphoneos-arm.deb
+Size: 11870
+MD5sum: 68c6a232e87a157f9991ea2e55f83224
+SHA1: 793a82b39b9d25a564719c0bf7f164db60573a06
+SHA256: 292b5bce1bc1cc83915500d0bea049ddac8c528c78230d0e50d221eb7d4641e8
 Section: Tweaks
 Description: Free & Open Source Tweak for Teams App
  Free & Open Source Tweak for Teams App
@@ -310,8 +400,6 @@ Description: Free & Open Source Tweak for Teams App
  - Bypass Jailbreak Detection
  - Support iOS 10-13 & latest Teams app version
  .
- I collect uuid for better support and statistic purpose
- .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
  .
@@ -320,16 +408,16 @@ Author: Hao Nguyen
 Name: Teams Plus
 
 Package: com.haoict.tiktokgod
-Version: 1.9.1
+Version: 1.9.2
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 404
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
-Filename: ./debs/com.haoict.tiktokgod_1.9.1_iphoneos-arm.deb
-Size: 51022
-MD5sum: 9dab51a59c6bc3ea42cd51508c421f6f
-SHA1: abbf9b44c6a91e5de946e262026a34eb4d95cb66
-SHA256: b567bfaa8a39352f67b125d32c00b783d3ed52d43ef9efe4bba076532885754f
+Filename: ./debs/com.haoict.tiktokgod_1.9.2_iphoneos-arm.deb
+Size: 49996
+MD5sum: de5cda4967f4a31b82fdd64bca544566
+SHA1: 43bf32559fe018f4e858cce3bb1c35e5e5f7a799
+SHA256: 44acae70af2c744533689e75b8bd0baf00e0cea923181b2d797354440b9586bf
 Section: Tweaks
 Description: The best tweak for TikTok app.
  The best tweak for TikTok app.
@@ -344,8 +432,6 @@ Description: The best tweak for TikTok app.
  - Show progress bar (for fast forward or rewind video)
  - Can hide UI (view video in full screen)
  - Support iOS 10-13 & latest TikTok version
- .
- I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict or https://www.patreon.com/haoict
