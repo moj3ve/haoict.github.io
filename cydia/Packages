@@ -140,55 +140,27 @@ Author: Hao Nguyen
 Name: Gmail No Ads
 
 Package: com.haoict.instanoads
-Version: 2.2.0
+Version: 2.5.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 648
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.3.0), firmware (>= 10)
-Filename: ./debs/com.haoict.instanoads_2.2.0_iphoneos-arm.deb
-Size: 325968
-MD5sum: 127e980780713d56964d339f9311fcf8
-SHA1: d146428a91d852bffdb71e8de4be14239aa23ef6
-SHA256: cdf3f3c99904a69073a42a35fae904d2f8fbf7d963f43f99f9b691bb710ff378
-Section: Tweaks
-Description: Free & Open Source Tweak for Instagram
- Free & Open Source Tweak for Instagram
- Features:
- - Remove Ads (New Feeds and Stories)
- - Can save media (Photos, Videos, IGTV, Stories, press and hold to show download option)
- - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest Instagram version (If it doesn't work, you should update the app to latest version >= 145.0)
- .
- I collect uuid for better support and statistic purpose
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
-Version: 2.4.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 644
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
-Filename: ./debs/com.haoict.instanoads_2.4.0_iphoneos-arm.deb
-Size: 325654
-MD5sum: 767a19493609cffb313dc746d6dbe3e4
-SHA1: 5f167ac7ec42263f894801786ce1c860e0e1acd9
-SHA256: 4adb658f0aa244a5d349c439992439456cbd6d4767da8cc491008ee2b44b9056
+Filename: ./debs/com.haoict.instanoads_2.5.1_iphoneos-arm.deb
+Size: 328684
+MD5sum: 041a5608f225c376964ab33060176ee9
+SHA1: fab2cdd534b1b42d9c3a38a0f4de91cc79f17584
+SHA256: 32243fc41c1b40790e15049bea87126b7e43165bbe77cb53edf8442ee9721f61
 Section: Tweaks
 Description: Free & Open Source Tweak for Instagram
  Free & Open Source Tweak for Instagram
  Features:
  - Remove Ads (New Feeds and Stories)
- - Can save media (Photos, Videos, IGTV, Stories, press and hold to show download option)
+ - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
  - Can Save HD Profile Picture (Press and hold to show download option)
+ - Show like count
+ - Determine if user is following you
+ - Disable DM seen and Story seen receipt
  - Support iOS 10 - 13 & latest Instagram version (>= 145.0)
- .
- I collect uuid for better support and statistic purpose
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -418,6 +390,39 @@ Size: 49996
 MD5sum: de5cda4967f4a31b82fdd64bca544566
 SHA1: 43bf32559fe018f4e858cce3bb1c35e5e5f7a799
 SHA256: 44acae70af2c744533689e75b8bd0baf00e0cea923181b2d797354440b9586bf
+Section: Tweaks
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Change log: https://github.com/haoict/tiktok-god/releases
+ .
+ Features:
+ - Remove Ads
+ - Enable download for all videos
+ - Download without watermark
+ - Auto scroll to next video
+ - Change Region (may not work for iPad and some devices)
+ - Show progress bar (for fast forward or rewind video)
+ - Can hide UI (view video in full screen)
+ - Support iOS 10-13 & latest TikTok version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict or https://www.patreon.com/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: TikTok God
+
+Package: com.haoict.tiktokgod
+Version: 1.9.3
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
+Filename: ./debs/com.haoict.tiktokgod_1.9.3_iphoneos-arm.deb
+Size: 53486
+MD5sum: 33dc585ae424c1861ef7e4b439f8cba2
+SHA1: 43784f43773e7cb16ca84c41e32136b59dc99e47
+SHA256: 78a011df10d28cfb745eb5855513caa5dba3ebea1c04769ed984f98bd8c6016a
 Section: Tweaks
 Description: The best tweak for TikTok app.
  The best tweak for TikTok app.
